@@ -1,5 +1,5 @@
-# go-pklog
-__go-pklog__ providing log files on syslog and live on stdout written in Golang. This package is written in `Golang`. This logging package is able to generate two types of log information both on:
+# pklog
+__pklog__ providing log files on syslog and live on stdout written in Golang. This package is written in `Golang`. This logging package is able to generate two types of log information both on:
 * syslog
 * stdout
 
@@ -11,7 +11,7 @@ Pezhman Kasraee [pezhmankasraee@gmail.com](pezhmankasraee@gmail.com).
 
 ## Download the package
 ```bash
-go get -u github.com/pezhmankasraee/go-pklog
+go get -u github.com/pezhmankasraee/pklog
 ```
 
 ## Example
@@ -27,7 +27,7 @@ Then you should write your code as follows:
 ```go
 package main
 
-import "github.com/pezhmankasraee/go-pklog"
+import "github.com/pezhmankasraee/pklog"
 
 func main() {
 	pklog.CreateLog(pklog.Error, "Hello, Error")
@@ -37,3 +37,15 @@ if you run the application with `PKLOG="DEVELOPMENT"`, you will see the result o
 ```bash
 $ cat /var/log/syslog
 ```
+
+## Versions
+* Version 1.x.x
+	module: go-pklog
+
+* Version 2:
+
+	release: 6 June 2025
+
+	NOTE: this release is backward compatible with version 1.x.x
+
+	major change: module name is change to **pklog**.
