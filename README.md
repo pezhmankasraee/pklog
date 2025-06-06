@@ -4,7 +4,7 @@ __pklog__ providing log files on syslog and live on stdout written in Golang. Th
 * stdout
 
 ## Badges
-![golang version](https://img.shields.io/badge/golang-v1.13-lightblue)
+![golang version](https://img.shields.io/badge/golang-v1.24.3-lightblue)
 
 ## Author
 Pezhman Kasraee [pezhmankasraee@gmail.com](pezhmankasraee@gmail.com).
@@ -48,4 +48,7 @@ $ cat /var/log/syslog
 
 	NOTE: this release is backward compatible with version 1.x.x
 
-	major change: module name is change to **pklog**.
+	major change:
+
+		1. module name changed to `pklog`.
+		2. License changed to BSD3.
