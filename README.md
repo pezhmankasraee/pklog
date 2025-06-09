@@ -4,14 +4,17 @@ __pklog__ providing log files on syslog and live on stdout written in Golang. Th
 * stdout
 
 ## Badges
-![golang version](https://img.shields.io/badge/golang-v1.24.3-lightblue)
+![golang version](https://img.shields.io/github/go-mod/go-version/pezhmankasraee/pklog)
+[![GitHub release](https://img.shields.io/github/v/release/pezhmankasraee/pklog)](https://github.com/pezhmankasraee/pklog/releases)
+[![Go Reference](https://pkg.go.dev/badge/github.com/pezhmankasraee/pklog.svg)](https://pkg.go.dev/github.com/pezhmankasraee/pklog/v2)
+[![License](https://img.shields.io/github/license/pezhmankasraee/pklog)](https://github.com/pezhmankasraee/pklog/blob/main/LICENSE)
 
 ## Author
 Pezhman Kasraee [pezhmankasraee@gmail.com](pezhmankasraee@gmail.com).
 
 ## Download the package
 ```bash
-go get -u github.com/pezhmankasraee/pklog
+go get -u github.com/pezhmankasraee/pklog/v2
 ```
 
 ## Example
@@ -27,7 +30,7 @@ Then you should write your code as follows:
 ```go
 package main
 
-import "github.com/pezhmankasraee/pklog"
+import "github.com/pezhmankasraee/pklog/v2"
 
 func main() {
 	pklog.CreateLog(pklog.Error, "Hello, Error")
@@ -39,14 +42,14 @@ $ cat /var/log/syslog
 ```
 
 ## Versions
-* Version 1.x.x
+* Version 1:
 	module: go-pklog
 
 * Version 2:
 
 	release: 6 June 2025
 
-	NOTE: this release is backward compatible with version 1.x.x
+	NOTE: this release is **NOT** backward compatible with version 1.x.x
 
 	major change:
 
