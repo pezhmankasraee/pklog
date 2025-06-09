@@ -46,7 +46,7 @@ $ cat /var/log/syslog
 
 	release: 6 June 2025
 
-	NOTE: this release is backward compatible with version 1.x.x
+	NOTE: this release is **NOT** backward compatible with version 1.x.x
 
 	major change:
 
