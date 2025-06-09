@@ -11,7 +11,7 @@ Pezhman Kasraee [pezhmankasraee@gmail.com](pezhmankasraee@gmail.com).
 
 ## Download the package
 ```bash
-go get -u github.com/pezhmankasraee/pklog
+go get -u github.com/pezhmankasraee/pklog/v2
 ```
 
 ## Example
@@ -27,7 +27,7 @@ Then you should write your code as follows:
 ```go
 package main
 
-import "github.com/pezhmankasraee/pklog"
+import "github.com/pezhmankasraee/pklog/v2"
 
 func main() {
 	pklog.CreateLog(pklog.Error, "Hello, Error")
@@ -39,7 +39,7 @@ $ cat /var/log/syslog
 ```
 
 ## Versions
-* Version 1.x.x
+* Version 1:
 	module: go-pklog
 
 * Version 2:
