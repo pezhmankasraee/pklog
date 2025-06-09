@@ -4,7 +4,10 @@ __pklog__ providing log files on syslog and live on stdout written in Golang. Th
 * stdout
 
 ## Badges
-![golang version](https://img.shields.io/badge/golang-v1.24.3-lightblue)
+![golang version](https://img.shields.io/github/go-mod/go-version/pezhmankasraee/pklog)
+[![GitHub release](https://img.shields.io/github/v/release/pezhmankasraee/pklog)](https://github.com/pezhmankasraee/pklog/releases)
+[![Go Reference](https://pkg.go.dev/badge/github.com/pezhmankasraee/pklog.svg)](https://pkg.go.dev/github.com/pezhmankasraee/pklog/v2)
+[![License](https://img.shields.io/github/license/pezhmankasraee/pklog)](https://github.com/pezhmankasraee/pklog/blob/main/LICENSE)
 
 ## Author
 Pezhman Kasraee [pezhmankasraee@gmail.com](pezhmankasraee@gmail.com).
